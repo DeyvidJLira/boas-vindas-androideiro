@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.deyvidjlira.boasvindasandroideiro.MainActivity">
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/android_jornada"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#005644"
+        android:padding="8dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="Seja bem-vindo Androideiro!" />
+
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_alignParentBottom="true"
+        android:background="#009688"
+        android:textStyle="italic|bold"
+        android:textColor="@android:color/white"
+        android:textAlignment="textEnd"
+        android:textSize="24sp"
+        android:text="Vamos criar apps!" />
+
+</RelativeLayout>
